@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Cambio de pesos a dolares...</title>
+    <style>
+    body {background-color:green;
+    color: white;
+    font-family:Helvetica;
+  }
+    </style>
+  </head>
+  <body>
+    <h1>¡Cambiar tus pesos a dolares es facil!</h1>
+    <p>Aqui te decimos la cantidad</p>
+    <script>
+    var pesos_mexicanos= prompt("¿Cuantos pesos mexicanos deseas cambiar?");
+    var cantidad= parseFloat(pesos_mexicanos)
+    var dolares=22;
+    valor_en_dolares= pesos_mexicanos/dolares;
+    valor_final=parseFloat(valor_en_dolares);
+    document.write("Tu cantidad es <strong>"+valor_final+" dolares </strong>")
+    </script>
+  </body>
+</html>
